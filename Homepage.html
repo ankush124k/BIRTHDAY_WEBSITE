@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+    <style>
+        .body{
+            display:flex;
+        }
+        .title{
+            background-image: url('https://images.unsplash.com/photo-1502035618526-6b2f1f5bca1b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=50');
+            background-size: cover;
+            background-repeat: no-repeat;
+            height:750px;
+            width:1500px;
+        }
+        .title2 ul
+        {
+            background-color:green;
+            padding:10px;
+            overflow: auto;
+            border:6px solid black;
+        }
+        .title2 li
+        {
+            float:right;
+            list-style: none;
+            padding:10px;
+        }
+        .title2 li a
+        {
+            text-decoration: none;
+            color:white;
+            margin:10px;
+            position:static;
+            border-radius:2px;
+        }
+        .title5
+        {
+            margin-top: 180px;
+            margin-left: 150px;
+            font-size: 100px;
+            font-style: italic;
+            text-shadow: lightcoral;
+            font-family: "Sofia", sans-serif;
+        }
+        .title5 a
+        {
+            color:white;
+            text-decoration: none;
+        }
+        .title6
+        {
+            margin-left:1100px;
+            margin-top:200px;
+            font-size: 40px;
+            color:white;
+            font-style: italic;
+            /* font-family: "Sofia", sans-serif; */
+        }
+        #demo
+        {
+            color:white;
+            margin-left:1100px;
+            position: absolute;
+        }
+        .title7
+        {
+            color:white;
+            background-color: green;
+        }
+        .title9{
+            background-color:black;
+        }
+    </style>
+    <script>
+        function show_hide(){
+            var x=document.getElementById('demo');
+            if(x.style.display=='none'){
+                x.style.display='block';
+            } else{
+                x.style.display='none';
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="title">
+        <div class="title3">
+            <nav class="title2">
+               <ul>
+                   <li><a href="/Gallery.html">GALLERY</a></li>
+                   <li><a href="/bday1.html">BIRTHDAY </a></li>
+                   <li><a href="#" onclick="show_hide()" class="title7"> CALENDAR</a></li>    
+                   <li><a href="/Homepage.html">HOME</a></li>
+                </ul>
+            </nav>
+            <div id="demo" style="display:none">
+                <table class="title9">
+                    <thead>
+                        <tr><th>NAME</th><th>BIRTHDAY DATE</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Shivanshu Singh</td><td>09 January</td></tr>
+                        <tr><td>Abhyodaya</td><td>15 January</td></tr>
+                        <tr><td>Srishti Gupta</td><td>06 February</td></tr>
+                        <tr><td>Divyanshi Sachan</td><td>07 March</td></tr>
+                        <tr><td>Abhishek Singh</td><td>28 March</td></tr>
+                        <tr><td>Akash Singh</td><td>09 June</td></tr>
+                        <tr><td>Saqib Ahmad</td><td>27 June</td></tr>
+                        <tr><td>Siddhi Bansal</td><td>01 July</td></tr>
+                        <tr><td>Shilpi Gupta</td><td>01 July</td></tr>
+                        <tr><td>Anshul Singh</td><td>30 August</td></tr>
+                        <tr><td>Shivank Singh</td><td>09 September</td></tr>
+                        <tr><td>Sagar Gaud</td><td>08 October</td></tr>
+                        <tr><td>Ankush Kushwaha</td><td>11 October</td></tr>
+                        <tr><td>Deepali Jaiswal</td><td>27 October</td></tr>
+                        <tr><td>Abhinav Asthana</td><td>14 November</td></tr>
+                        <tr><td>Aryan Raj Singh</td><td>22 November </td></tr>
+                        <tr><td></td><td></td></tr>
+                        <tr><td></td><td></td></tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>  
+        <div class="title5">
+            <div class="font-effect-outline">
+                <a href="/bday1.html">
+                      A.M.I.S.T.A.D.
+                </a> 
+            </div>
+        </div>
+        <div class="title6">
+            <div class="font-effect-outline">
+            <div class="title8">
+                <img src="https://docs.google.com/uc?id=13sHjs8nFu3pRhr4-Crtd0FLLdb4AOrtw" height="50" width="50" title="creator">:Ankush Kushwaha
+                <br>
+                <img src="https://docs.google.com/uc?id=13tQzO4Kq48SL-iZSXgYaqD8E8OAvdHyn" height="50" width="50" title="creator">:Deepali Jaiswal
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
